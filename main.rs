@@ -2,7 +2,7 @@
 use actix_cors::Cors;
 use actix_web::{http, middleware, App, HttpServer};
 use dotenv::dotenv;
-use mongodb::{options::ClientOptions, Client};
+use mongodb::{options::CarreraOptions, Carrera};
 use std::env;
 use api_service::ApiService;
 
